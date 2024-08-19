@@ -9,6 +9,12 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.20"/>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
+        <PackageReference Include="NSwag.AspNetCore" Version="14.0.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Tree.Application\Tree.Application.csproj" />
+      <ProjectReference Include="..\Tree.Infrastructure\Tree.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
